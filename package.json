@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
   },
+  "dependencies": {
+    "int24": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/alfreddatakillen/audio-mixer.git"
