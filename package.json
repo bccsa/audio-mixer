@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "Mixing multiple PCM streams into one.",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
-    "int24": "*"
+    "int24": "*",
+    "lame": "^1.2.4",
+    "speaker": "^0.3.0",
+    "uuid": "^3.1.0"
   },
   "repository": {
     "type": "git",
