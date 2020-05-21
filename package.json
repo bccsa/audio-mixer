@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {
-    "int24": "*",
-    "lame": "^1.2.4",
-    "uuid": "^3.1.0"
+    "int24": "*"
   },
   "repository": {
     "type": "git",
