@@ -1,1 +1,1 @@
-module.exports = require('./lib/mixer.js');
+module.exports = require('./lib/mixer');

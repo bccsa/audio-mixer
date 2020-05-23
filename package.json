@@ -3,9 +3,17 @@
   "version": "0.0.1",
   "description": "Mixing multiple PCM streams into one.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ."
+  },
   "dependencies": {
     "int24": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
   },
   "repository": {
     "type": "git",
