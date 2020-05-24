@@ -1,7 +1,7 @@
 {
-  "name": "audio-mixer",
-  "version": "0.0.1",
-  "description": "Mixing multiple PCM streams into one.",
+  "name": "@rophil/audio-mixer",
+  "version": "1.0.0",
+  "description": "Mix multiple PCM streams into one.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alfreddatakillen/audio-mixer.git"
+    "url": "git://github.com/PhilInTheGaps/audio-mixer.git"
   },
   "keywords": [
     "audio",
@@ -25,10 +25,10 @@
     "pcm",
     "sound"
   ],
-  "author": "Alfred Godoy",
+  "author": "Phil Hoffmann",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/alfreddatakillen/audio-mixer/issues"
+    "url": "https://github.com/PhilInTheGaps/audio-mixer/issues"
   },
-  "homepage": "https://github.com/alfreddatakillen/audio-mixer"
+  "homepage": "https://github.com/PhilInTheGaps/audio-mixer"
 }
