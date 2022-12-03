@@ -41,6 +41,19 @@ const input1 = mixer.input({
 // Pipe your PCM streams into the mixer inputs
 pcmStream0.pipe(input0);
 pcmStream1.pipe(input1);
+
+// Get level and peak indications (range = 0 to 1)
+input0.level.on('level', level => {
+  // Do something with input0's instantaneous level indication
+});
+
+input1.level.on('peak', level => {
+  // Do something with input1's 3s peak level indication
+});
+
+mixer.level.on('level', level => {
+  // Do something with the mixer instantaneous output level indication
+});
 ```
 
 ## Credits
